@@ -1,0 +1,44 @@
+body {
+    padding: 30px;
+    font-size: 30px;
+}
+
+input{
+    width: 500px;
+    height: 60px;
+    outline: none;
+    border: 1px solid #333;
+    border-width: 0 0 1px;
+    margin-bottom: 30px;
+    margin-bottom: 50px;
+}
+
+button {
+    
+    width: 500px;
+    background: lightgreen;
+    border: none;
+    border-radius: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    transition: all ease .5s;
+    transition-duration: 0.5s;
+    box-shadow: 0 5px 0px #7a7585;
+    transition-property: background-color, top;
+    transition-delay: 0s, 0.5s, 0.5;
+}
+
+button:active {
+    background: no-repeat bottom;
+}
+
+button:hover{
+    transition: all ease .5s;
+    background: lightslategrey;
+    border:1px solid lightgrey;
+    box-shadow: 0 3px 0px #7a7585;
+}
+
